@@ -4,8 +4,8 @@ source 'https://rubygems.org'
 
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
-gem 'puma', '~> 7.0.2'
-gem 'rails', '~> 8.0.2'
+gem 'puma', '~> 7.0.4'
+gem 'rails', '~> 8.0.3'
 gem 'rails-i18n', '~> 8.0.2'
 gem 'rack-cors', '~> 3.0.0'
 gem 'rack', '~> 3.0.16'
@@ -19,7 +19,7 @@ gem 'lograge', '~> 0.14.0'
 
 # API
 gem 'active_model_serializers', '~> 0.10.15'
-gem 'graphql', '~> 2.5.11'
+gem 'graphql', '~> 2.5.13'
 gem 'health_check', '~> 3.1.0'
 gem 'tiny_appstore_connect', '~> 0.1.12'
 
@@ -46,18 +46,18 @@ gem 'faraday', '~> 2.13.4'
 gem 'rqrcode'
 
 ## Auth
-gem 'pundit', '~> 2.5.0'
+gem 'pundit', '~> 2.5.2'
 gem 'devise', '~> 4.9.4'
 gem 'devise-i18n', '~> 1.15.0'
 
 gem 'omniauth', '~> 2.1.3'
 gem 'omniauth-rails_csrf_protection', '~> 1.0.2'
-gem 'omniauth-google-oauth2', '~> 1.0.1'
-gem 'omniauth-gitlab', '~> 3.0.0'
+gem 'omniauth-google-oauth2', '~> 1.2.1'
+gem 'omniauth-gitlab', '~> 4.1.0'
 gem 'omniauth-feishu', '~> 0.1.8'
 gem 'gitlab_omniauth-ldap', '~> 2.3.0', require: 'omniauth-ldap'
 gem 'omniauth_openid_connect', '0.8.0'
-gem 'omniauth-github', '~> 2.0.0'
+gem 'omniauth-github', '~> 2.0.1'
 
 ## UDID
 gem 'openssl', '~> 3.3.0'
@@ -69,16 +69,16 @@ gem 'vmstat', '~> 2.3.0'
 gem 'pghero', '~> 3.7.0'
 
 ## Exception handler
-gem 'sentry-ruby', '~> 5.26.0'
-gem 'sentry-rails', '~> 5.26.0'
+gem 'sentry-ruby', '~> 5.27.1'
+gem 'sentry-rails', '~> 5.27.1'
 
 # Background job
-gem 'good_job', '~> 4.11.2'
+gem 'good_job', '~> 4.12.0'
 gem 'activejob-status', '~> 1.0.2'
 
 # Assets
 ## Use jsbundling-rails, cssbundling-rails to run rake tasks, core is build/build:css in package.json
-gem 'propshaft', '1.2.1'
+gem 'propshaft', '1.3.1'
 gem 'jsbundling-rails', '~> 1.3'
 gem 'cssbundling-rails', '~> 1.4'
 ## Javascript
