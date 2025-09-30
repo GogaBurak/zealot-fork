@@ -14,7 +14,7 @@ class Releases::InstallController < ApplicationController
     ios_url = channel_release_install_url(params[:channel_id], params[:release_id])
     url = "itms-services://?action=download-manifest&url=#{ios_url}"
 
-    redirect_to url
+    redirect_to url, allow_other_host: true
   end
 
   private
